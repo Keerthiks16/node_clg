@@ -10,4 +10,5 @@ app.use("/classroom", studRoutes);
 app.use("/prof", profRoutes);
 app.use("/exp", expRoutes);
 console.log("hii how u doing");
+//hello there
 app.listen(5000);
