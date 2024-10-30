@@ -1,8 +1,8 @@
 const mongoose = require("mongoose");
 require("dotenv").config();
 const mongoURL = process.env.MONGODB_URL;
-//const mongoURL = "mongodb://127.0.0.1:27017/class";
-//const mongoURL ="mongodb+srv://faizshinde:qwerty12345@cluster0.jwnjn.mongodb.net/";
+//const mongoURL = process.env.MONGODB_URL_LOCAL;
+//const mongoURL ="mongodb+srv://faizshinde:qwerty12345@mongo1.jwnjn.mongodb.net/";
 mongoose
   .connect(mongoURL, {
     // useNewUrlParser and useUnifiedTopology are no longer necessary
